@@ -299,27 +299,6 @@ Developer Pushes Code
 
 ---
 
-## Security Best Practices
-
-* Restrict SSH access to trusted IP addresses.
-* Store Terraform state remotely using AWS S3.
-* Use IAM roles instead of long-term AWS credentials.
-* Avoid hardcoding sensitive information.
-* Use environment variables for secrets and configuration.
-
----
-
-## Future Improvements
-
-* Remote Terraform State using S3
-* DynamoDB State Locking
-* Docker Hub Integration
-* GitHub Webhooks
-* SSL with Let's Encrypt
-* Monitoring with Prometheus and Grafana
-* Kubernetes Deployment
-
----
 
 ```
 ```
