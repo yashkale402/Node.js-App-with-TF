@@ -1,3 +1,14 @@
+# Ignore terraform local state and provider binaries
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+
+# Node
+node-app/node_modules/
+
+# OS
+.DS_Store
 # Terraform
 .terraform/
 *.tfstate
